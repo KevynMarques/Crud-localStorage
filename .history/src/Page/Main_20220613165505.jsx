@@ -1,0 +1,26 @@
+import React from 'react'
+import { BlocoTarefas, DigitarTarefa,BotaoADD, Tarefa,  MainBase, Tittle } from '../Components/divBase';
+import { useState } from 'react';
+
+
+export default ()=> {
+ const Envio = (e) => {
+
+ }; 
+
+ return (
+<MainBase >
+ <BlocoTarefas >
+   <Tittle>CRUD</Tittle>
+   <DigitarTarefa />
+
+   <BotaoADD type='submit'  onSubmit={Envio} >
+      Adicionar tarefa 
+   </BotaoADD>
+
+ </BlocoTarefas>
+</MainBase>
+
+
+ ); 
+}

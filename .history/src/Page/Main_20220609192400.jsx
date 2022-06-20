@@ -1,0 +1,9 @@
+import React from ''
+
+
+export default ()=> {
+ return (
+ <div> testando o componente</div>
+ 
+ ); 
+}
